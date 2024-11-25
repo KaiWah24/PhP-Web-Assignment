@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: lato;
+  src: url(Lato-Semibold.ttf);
+}
+
+html{
+  font-family: lato;
+}
+
+body{
+    background-image: url('2.png');
+    background-size: 100%;
+    font-family: 'Prompt', sans-serif !important;
+    background-color: #1f2833;
+}
+.logo {
+    border-radius: 50%;
+  }
+.slide{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description{
+  text-align: center;
+}
+.w3-wide{
+  padding-bottom: 20px;
+
+}
+.smallabout{
+  text-align: center;
+  border-bottom: 1.5px solid lightgray;
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 40%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  padding-bottom: 10px; /* This creates some space between the element and the border. */
+}
+a#login-button.button.logout.login.w-button {
+  background-color: #66ffcc;
+  background-image: none;
+  border-radius: 25px;
+  border-width: 0;
+  bottom: auto;
+  box-sizing: border-box;
+  color: #253858;
+  cursor: pointer;
+  display: block;
+  flex: 1;
+  float: right;
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  left: auto;
+  letter-spacing: 1px;
+  line-height: 19px;
+  margin-left: -15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 5px 15px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition: background-color 150ms;
+  z-index: 30;
+}
+ 
+a#login-button.button.logout.login.w-button:active {
+  outline: 0;
+}
+ 
+a#login-button.button.logout.login.w-button:hover {
+  background-color: #2ac28f;
+  font-weight: 400;
+  outline: 0;
+}
+
+
+tr>td>li {
+	margin: 0;
+	padding: 0px 0 0px 14px;
+	list-style: none;
+	background-image: url("arrow.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}
+
+tr>td>li>a:hover{
+  color:whitesmoke;
+}
+
+
+
+ 

@@ -1,0 +1,38 @@
+
+body{
+     background-color:#1f2833 !important;
+}
+
+.wrap{
+    margin-left: 170px;
+    border:2px solid black;
+    width: 30%;
+}
+.main{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.footer{
+    width: 100%;
+}
+
+.margin-left{
+    margin-left: 180px;
+}
+
+caption{
+    color: white;
+}
+
+table.table-bordered > thead > tr > th{
+    border:3px solid rgb(43, 41, 41);
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid rgb(43, 41, 41);
+}
+
